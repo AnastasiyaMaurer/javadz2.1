@@ -5,7 +5,7 @@ public class Main {
         int addend = 1001;
         int bonus = 0;
         if (addend > 1000) {
-            bonus = addend/100;
+            bonus = addend / 100;
         }
 
         int finalbalance = initialBalance + addend + bonus;
